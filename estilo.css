@@ -1,93 +1,87 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
 h2 {
-	color:white;
+	color:black;
 }
 
-body {
-    
-    font-family:Verdana, Geneva, sans-serif;
-    background-color:gray;
+* {
+	box-sizing: border-box;
 }
+
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+header {
+    width: auto;
+    min-height: 100px;
+    margin: 0;
+    text-align: center;
+    background-color:#BDBDBD;
+    overflow-x: hidden;
+
+}
+
 
 header, section, footer {
     display:block;
 }
 
-#container {
-    width:1000px;
-    min-height:800px;
-    margin: 0px auto;
-    background-color:gray;
-}
+section {
 
-header {
-    background-image: url("bluebar1.jpg");
-    text-align:center;
-    margin-top:10px;
-    height:120px;
-    
-}
-
-header h1 {
-    vertical-align:middle;
-}
-
-header img {
-    float:right;
-    display:block;
-    padding-top:5px;
-}
-
-#main {
-    background-color: black; position:relative; height:100%;
-}
-
-#main section {
-    position:relative; left:20%; top:0;
     padding: 10px;
-    background: #FFF;
+    height; auto;
+    width: 80%;
+    background-color: gray;
+    float: left;
+    float: right;
+    margin-bottom: 10px;
+
 }
 
-#main nav.horizontal {
-    left:0; z-index:999; top:0px;
+#menu {
+	position:absolute;
     width:20%;
-    height:100%;
-    background: #999;
-    position:absolute;
-    /*
-    background-image: url(bluebar1.jpg);
-    background-repeat: repeat-y;
-    */
-}
-
-#main nav.horizontal li {
-    font-size:18px;
-    list-style:none;
-    margin: 20px 0px;
-}
-
-nav.horizontal li a:hover {
-    background-color:#FFE6FF;
+    background-color: white;
+	text-align:center;
 }
 
 footer {
-    height:50px;
-    margin-top:20px;
-    padding-top:10px;
-    text-align:center;
+    height:100px;
+    margin-top:10px;
+    text-align:left;
     clear:both;
+    background-color: #BDBDBD;
+}
+
+#espaco{
+	width: 50;
+	height: 50;
+	float: left;
+	margin-left: 200px;
+}
+
+#espaco2{
+	float: left;
+	margin-left: 3%;
 }
 #site {
-	color: white;
+	color: black;
 	font-weight: bold;
 	font-decoration: underline;
+	font-size: 20;
+}
 
 }#bolha {
-	background-color: white;
+	background-color: #6E6E6E;
 	
 
 }
+#link {
+	color: black;
+	
+}
+#cinz{
+text-align:center;
