@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="estilo.css">
 <html>
-
+<style type="text/css">
+ #leftbox { 
+                float:left;
+	               
+} 
+ #rightbox { 
+                float:right;
+width:35%; 
+                
+} 
+label{
+width: 100px;
+text-align: left;
+display: inline-block;
+</style>
 <head>
 <header>
 <title>Cadastro</title>
-<h1>  <b> Cadasto </b> </h1> 
+<h1>  <b> Cadastro </b> </h1> 
 </header>
 </head>
 <body>
@@ -29,6 +43,7 @@
 <section>
 
 <form method="post">
+<div id="leftbox">
 	<p><label for "nome">Nome:</label>
 	<input type="text" name="nome" id="nome"></p>
 
@@ -47,7 +62,8 @@
 	
 	<p><label for "telefone">Telefone: </label>
 	<input type="text" name="telefone" id="telefone" placeholder="(XX)XXXX-XXXX"></p>
-
+</div>
+<div id="rightbox">
 	<p><label for "endereco">Endereço: </label>
 	<input type="text" name="endereco" id="endereco" ></p>
 
@@ -84,6 +100,7 @@
     <option value="se">Sergipe</option> 
     <option value="sp">São Paulo</option> 
     <option value="to">Tocantins</option> 
+  </div> 
 </select></p>
 
 	<p><label for "login">Login: </label>
