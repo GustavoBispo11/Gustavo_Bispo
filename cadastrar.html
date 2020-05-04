@@ -27,67 +27,84 @@
 </table></center>
 </div>
 <section>
-<table border=" 1 solid black" >
 
-<tr>
-	<th>Nome</th>
-	<th>Data de Lançamento</th>
-	<th>Estilo</th>
-	<th>Fabricante</th> 
-	<th>Plataformas</th>
-	<th colspan="2">Preço</th>
-</tr>
-<tr id="bolha">
-	<td rowspan="3"> Conan Exiles </td>
-	<td rowspan="3"> 31 Janeiro 2017 </td>
-	<td rowspan="3"> Sobrevivência </td>	
-	<td rowspan="3"> Funcom </td>
-	<td> Ps4 </td>
-	<td rowspan="3"> 39,99 </td>
-	<td rowspan="3"> 399,99 </td>
-</tr>
-<tr id="bolha">
-<td> PC </td>
-</tr>
-<tr id="bolha">
-<td> Xbox </td>
-</tr>
-<tr>
-	<td rowspan="3"> FIFA 20 </td>
-	<td rowspan="3"> 10 Setembro 2019</td>
-	<td rowspan="3"> Esporte </td>	
-	<td rowspan="3"> EA Sports </td>
-	<td> Ps4 </td>
-	<td rowspan="3"> 149,94 </td>
-	<td rowspan="3"> 179,99 </td>
-</tr>
-<tr>
-<td> PC </td>
-</tr>
-<tr>
-<td> Xbox </td>
-</tr>
-<tr id="bolha">
-	<td rowspan="3"> GTA V </td>
-	<td rowspan="3"> 17 Setembro 2013 </td>
-	<td rowspan="3"> Ação </td>	
-	<td rowspan="3"> Rockstar Games </td>
-	<td> Ps3-Ps4 </td>
-	<td rowspan="3"> 69,99 </td>
-	<td rowspan="3"> 119,99 </td>
-</tr>
-<tr id="bolha">
-	<td> PC </td>
-</tr>
-<tr id="bolha">
-	<td> Xbox </td>
-</tr>
+<form method="post">
+	<p><label for "nome">Nome:</label>
+	<input type="text" name="nome" id="nome"></p>
 
-<tr>		
-	<td colspan="7"> Valores consultados em 12/03/2020</td>
-</tr>
-</table>
+	<p><label for "sobrenome">Sobrenome:</label>
+	<input type="text" name="sobrenome" id="sobrenome"></p>
 
+	<p><label for "data">Data Nascimento:</label>
+	<input  id="data" name="data" type="date" ></p>
+
+	<p><label>Sexo:</label>
+	<input type="radio" name="sexo" value="Feminino">Feminino 
+	<input type="radio" name="sexo" value="Masculino">Masculino</p>
+	
+	<p><label for "email">Email: </label>
+	<input type="text" name="email" id="email" placeholder="seuemail@email.com"></p>
+	
+	<p><label for "telefone">Telefone: </label>
+	<input type="text" name="telefone" id="telefone" placeholder="(XX)XXXX-XXXX"></p>
+
+	<p><label for "endereco">Endereço: </label>
+	<input type="text" name="endereco" id="endereco" ></p>
+
+	<p><label for "num">Número: </label>
+	<input type="number" name="num" id="num" ></p>
+
+	<p><label for "estado">Estado: </label>
+	<select name="estado"> 
+    <option value="estado"></option> 
+    <option value="ac">Acre</option> 
+    <option value="al">Alagoas</option> 
+    <option value="am">Amazonas</option> 
+    <option value="ap">Amapá</option> 
+    <option value="ba">Bahia</option> 
+    <option value="ce">Ceará</option> 
+    <option value="df">Distrito Federal</option> 
+    <option value="es">Espírito Santo</option> 
+    <option value="go">Goiás</option> 
+    <option value="ma">Maranhão</option> 
+    <option value="mt">Mato Grosso</option> 
+    <option value="ms">Mato Grosso do Sul</option> 
+    <option value="mg">Minas Gerais</option> 
+    <option value="pa">Pará</option> 
+    <option value="pb">Paraíba</option> 
+    <option value="pr">Paraná</option> 
+    <option value="pe">Pernambuco</option> 
+    <option value="pi">Piauí</option> 
+    <option value="rj">Rio de Janeiro</option> 
+    <option value="rn">Rio Grande do Norte</option> 
+    <option value="ro">Rondônia</option> 
+    <option value="rs">Rio Grande do Sul</option> 
+    <option value="rr">Roraima</option> 
+    <option value="sc">Santa Catarina</option> 
+    <option value="se">Sergipe</option> 
+    <option value="sp">São Paulo</option> 
+    <option value="to">Tocantins</option> 
+</select></p>
+
+	<p><label for "login">Login: </label>
+	<input type="text" name="login" id="login" ></p>
+
+	<p><label for "senha">Senha: </label>
+	<input type="password" name="senha" id="senha" ></p>
+
+
+<br>
+<input type="submit" value="Enviar">
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 </section>
