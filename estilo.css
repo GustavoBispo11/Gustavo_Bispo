@@ -56,16 +56,15 @@ footer {
     background-color: #BDBDBD;
 }
 
-#espaco{
-	width: 50;
-	height: 50;
-	float: left;
-	margin-left: 200px;
-}
-
-#espaco2{
-	float: left;
-	margin-left: 3%;
+ #leftbox { 
+                float:left;
+	               
+} 
+ #rightbox { 
+                float:right;
+width:35%; 
+                
+} 
 }
 #site {
 	color: black;
