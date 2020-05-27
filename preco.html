@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="estilo.css">
-
-
 <head>
 
 <title>Meus Jogos</title>
@@ -12,9 +10,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
-
-
 <body>
+
+
 <nav class="navbar navbar-expand-md bg-color navbar-dark">
 	<div class="container-fluid">
 <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
@@ -30,7 +28,7 @@
       <a class="nav-link" href="preco.html">Preços</a>
     </li>
     <li class="nav-item">
-      <div class="dropdown">
+      <li><div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Jogos
   </button>
@@ -41,6 +39,7 @@
   </div>
 </div>
     </li>
+    </li>
 	<li class="nav-item">
       <a class="nav-link" href="#">Cadastre-se</a>
     </li>
@@ -48,38 +47,71 @@
 </div>
 </div>
 </nav> 
-<div id="meu carrosel" class="carousel slide" data-ride="carousel">
 
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
 
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="img/games1.jpg" alt="conan">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/games2.png" alt="fifa">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/games3.jpg" alt="gta">
-    </div>
-  </div>
+<h1> Preços </h1>
+<table class="table table-dark">
+<thead>
+<tr>
+	<th scope="col">Nome</th>
+	<th>Data de Lançamento</th>
+	<th>Estilo</th>
+	<th>Fabricante</th> 
+	<th>Plataformas</th>
+	<th colspan="2">Preço</th>
+</tr>
+<tr id="bolha">
+	<td rowspan="3"> Conan Exiles </td>
+	<td rowspan="3"> 31 Janeiro 2017 </td>
+	<td rowspan="3"> Sobrevivência </td>	
+	<td rowspan="3"> Funcom </td>
+	<td> Ps4 </td>
+	<td rowspan="3"> 39,99 </td>
+	<td rowspan="3"> 399,99 </td>
+</tr>
+<tr id="bolha">
+<td> PC </td>
+</tr>
+<tr id="bolha">
+<td> Xbox </td>
+</tr>
+<tr>
+	<td rowspan="3"> FIFA 20 </td>
+	<td rowspan="3"> 10 Setembro 2019</td>
+	<td rowspan="3"> Esporte </td>	
+	<td rowspan="3"> EA Sports </td>
+	<td> Ps4 </td>
+	<td rowspan="3"> 149,94 </td>
+	<td rowspan="3"> 179,99 </td>
+</tr>
+<tr>
+<td> PC </td>
+</tr>
+<tr>
+<td> Xbox </td>
+</tr>
+<tr id="bolha">
+	<td rowspan="3"> GTA V </td>
+	<td rowspan="3"> 17 Setembro 2013 </td>
+	<td rowspan="3"> Ação </td>	
+	<td rowspan="3"> Rockstar Games </td>
+	<td> Ps3-Ps4 </td>
+	<td rowspan="3"> 69,99 </td>
+	<td rowspan="3"> 119,99 </td>
+</tr>
+<tr id="bolha">
+	<td> PC </td>
+</tr>
+<tr id="bolha">
+	<td> Xbox </td>
+</tr>
 
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#meu_carrosel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	<span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#meu_carrosel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	<span class="sr-only">Next</span>
-  </a>
-</div>
+<tr>		
+	<td colspan="7"> Valores consultados em 12/03/2020</td>
+</tr>
+</table>
+
+<p>Tabela 1: Comparativo Jogos </p>
 <footer class="container-fluid text-center">
 <div class="row">
 
@@ -102,6 +134,5 @@
 </div>
 </div>
 </footer>
-
 </body>
 </html>
