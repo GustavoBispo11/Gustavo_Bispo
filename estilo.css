@@ -1,3 +1,31 @@
+<style> 
+.navbar{
+	background-color: #0040FF;
+	color: #0040FF;
+	font-size: 1.2em;
+}
+.navbar-nav .active a, .navbar-nav a:focus, .navbar-nav a:hover{
+color: #0040FF;
+background-color:#0040FF;
+}
+.navbar-nav a{
+color: grey;
+}
+.bg-color{
+background-color: #0101DF;
+}
+.container{
+margin:4% auto;
+}
+.icone{
+max-width: 200px;
+margin;auto;
+}
+footer{
+background-color: #5e4485;
+color: #FFF;
+padding: 3%;
+}
 h2 {
 	color:black;
 }
@@ -84,3 +112,5 @@ width:35%;
 }
 #cinz{
 text-align:center;
+
+}
