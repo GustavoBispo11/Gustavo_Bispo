@@ -26,6 +26,9 @@ background-color: #6c757d;
 color: #1579e4;
 padding: 3%;
 }
+.container1{
+text-align: center;
+}
 
 
 font-size: 1.2em;
@@ -93,7 +96,7 @@ width:35%;
 } 
 }
 #site {
-	color: black;
+	color: white;
 	font-weight: bold;
 	font-decoration: underline;
 	font-size: 20;
@@ -112,3 +115,4 @@ width:35%;
 text-align:center;
 
 }
+

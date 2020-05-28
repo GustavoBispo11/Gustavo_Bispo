@@ -1,51 +1,121 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="estilo.css">
 <html>
-<title> GTA V </title>
-<header>
+
 <head>
-<h1 id="topo"> GTA V </h1>
+<title>GTA V</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
-</header>
-<div id="menu">
 
-<h2>Link para os jogos</h2>
-<center><table border=" 1 solid black" >
-<tr>
-	<td> <a id="site" href="jogo1.html"> Conan Exiles</a> </td>
-</tr>
-<tr>
-	<td> <a id="site" href="jogo2.html"> FIFA 20</a> </td>
-</tr>
-<tr>
-	<td> <a id="site" href="jogo3.html"> GTA V</a> </td>
-</tr>
 
-</table></center>
+<body>
+<nav class="navbar navbar-expand-md bg-color navbar-dark">
+	<div class="container-fluid">
+<a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#minha_nav_bar">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="minha_nav_bar">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a id="link" class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a id="link" class="nav-link" href="preco.html">Preços</a>
+    </li>
+    <li class="nav-item">
+      <div class="dropdown">
+  <button id="link" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Jogos
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a id="link" class="dropdown-item" href="jogo1.html">Conan Exiles</a>
+    <a id="link"class="dropdown-item" href="jogo2.html">FIFA 20</a>
+    <a id="link"class="dropdown-item" href="jogo3.html">GTA V</a>
+  </div>
 </div>
-<section>
-<p><a href="index.html"> Página Inicial</a></p>
-<h2> Sobre </h2>
+    </li>
+	<li class="nav-item">
+      <a id="link" class="nav-link" href="cadastrar.html">Cadastre-se</a>
+    </li>
+  </ul>
+</div>
+</div>
+</nav> 
+<div class="container">
+<h1> GTA V</h1>
+<div class="row">
+<div class="col-md-6">
+<h3> Sobre </h3>
 <p>Grand Theft Auto V é um jogo eletrônico de ação-aventura desenvolvido pela Rockstar North e publicado pela Rockstar Games. É o sétimo título principal da série Grand Theft Auto e foi lançado originalmente em 17 de setembro de 2013 para PlayStation 3 e Xbox 360, com remasterizações lançadas em 18 de novembro de 2014 para PlayStation 4 e Xbox One, e em 14 de abril de 2015 para Microsoft Windows. O jogo se passa no estado ficcional de San Andreas, com a história da campanha um jogador seguindo três criminosos e seus esforços para realizarem assaltos sob a pressão de uma agência governamental. O mundo aberto permite que os jogadores naveguem livremente pelas áreas rurais e urbanas de San Andreas.</p>
 <p>A jogabilidade é mostrada em uma perspectiva de primeira ou terceira pessoa e o mundo pode ser atravessado a pé ou com veículos. Os jogadores controlam três protagonistas e podem alternar entre eles durante e fora das missões. A história é centrada em sequências de assaltos, com muitas missões envolvendo a jogabilidade de tiro e direção. Um sistema de "procurado" define a resposta e agressividade das forças da lei contra os crimes cometidos pelo jogador. O modo multijogador, Grand Theft Auto Online, permite que até trinta jogadores explorem o mundo e entrem em partidas competitivas ou cooperativas.</p>
-<p>Grand Theft Auto V recebeu uma enorme campanha de divulgação e altas expectativas. Quebrando recordes de vendas na indústria, tornou-se o produto de entretenimento mais rapidamente vendido da história, arrecadando oitocentos milhões de dólares na estreia e alcançado um bilhão em apenas três dias. Foi aclamado pela crítica, que elogiou seu desenho de múltiplos protagonistas, o mundo aberto, apresentação e jogabilidade. O jogo rendeu controvérsias devido sua representação das mulheres e uma missão contendo tortura para extração de informações. Considerado por muitos críticos e jogadores como um dos títulos mais importantes da sétima geração de consoles e como um dos melhores jogos eletrônicos já criados, Grand Theft Auto V também venceu vários prêmios, incluindo o de Jogo do Ano, de diversas publicações. É o terceiro jogo mais vendido de todos os tempos, com mais de 120 milhões de cópias vendidas e o produto de entretenimento mais lucrativo da história, com cerca de seis bilhões de dólares em receita mundia</p>
-<h4>Onde Comprar</h4>
-<a href="https://www.nuuvem.com/item/grand-theft-auto-v"><img src="img/nuvem.png" width=70 height=70></a>
-<a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/?l=portuguese"><img src="img/steam.png" width=70 height=70></a>
-<a href="https://www.americanas.com.br/produto/113150136?opn=YSMESP&sellerid=02&epar=bp_pl_00_go_gm_jogos_todas_geral_gmv&WT.srch=1&acc=e789ea56094489dffd798f86ff51c7a9&i=5612cbe46ed24cafb5cae011&o=55cec04a9c3238c7d1b7126c&gclid=Cj0KCQjwu6fzBRC6ARIsAJUwa2QyQPjZaixeMx6K2HqDsmnVK-XtXJYXEmEbr9earzwOLsYeSgkPovoaAuWhEALw_wcB"><img src="img/americanas.jpg" width=70 height=70></a>
+<p>Grand Theft Auto V recebeu uma enorme campanha de divulgação e altas expectativas. Quebrando recordes de vendas na indústria, tornou-se o produto de entretenimento mais rapidamente vendido da história, arrecadando oitocentos milhões de dólares na estreia e alcançado um bilhão em apenas três dias. Foi aclamado pela crítica, que elogiou seu desenho de múltiplos protagonistas, o mundo aberto, apresentação e jogabilidade. O jogo rendeu controvérsias devido sua representação das mulheres e uma missão contendo tortura para extração de informações. Considerado por muitos críticos e jogadores como um dos títulos mais importantes da sétima geração de consoles e como um dos melhores jogos eletrônicos já criados, Grand Theft Auto V também venceu vários prêmios, incluindo o de Jogo do Ano, de diversas publicações. É o terceiro jogo mais vendido de todos os tempos, com mais de 120 milhões de cópias vendidas e o produto de entretenimento mais lucrativo da história, com cerca de seis bilhões de dólares em receita mundial.</p>
+</div>
 
-
+<div class="col-md-6">
 <h2>Imagens</h2>
-<p><img src="img/gta1.jpg" alt="Grand Theft Auto V" ></p>
-<p><img src="img/gta2.jpg" alt="Grand Theft Auto V" ></p>
-<p><img src="https://d2skuhm0vrry40.cloudfront.net/2017/articles//a/1/8/9/9/2/6/7/eurogamer-zjp1vx.jpg/EG11/thumbnail/750x422/format/jpg/quality/60" alt="Grand Theft Auto V" </p>
-<p><a href="#topo"> Topo </a></p>
-</section>
-<footer>
-<p><a id="link" href="cadastrar.html"> >> Cadastre-se</a></p>
-<p><a id="link" href="fale conosco.html"> >> Fale Conosco</a></p>
-<p><a id="link" href=""> >> Facebook</a></p>
+<div class="col-md-12 col-sm-24 col-xs-48 ">
+<img src="img/gta1.jpg" alt="Grand Theft Auto V" class="img-fluid">
+</div>
+<br>
+<div class="col-md-12 col-sm-24 col-xs-48 ">
+<img src="img/gta2.jpg" alt="Grand Theft Auto V" class="img-fluid">
+</div>
+<br>
+<div class="col-md-12 col-sm-24 col-xs-48 ">
+<img src="https://d2skuhm0vrry40.cloudfront.net/2017/articles//a/1/8/9/9/2/6/7/eurogamer-zjp1vx.jpg/EG11/thumbnail/750x422/format/jpg/quality/60" alt="Grand Theft Auto V" class="img-fluid">
+</div>
+</div>
+</div>
+
+<h4>Onde Comprar</h4>
+
+<div class="container1">
+<div class="row"> 
+<div class="col-md-4"> 
+<a href="https://www.nuuvem.com/item/grand-theft-auto-v"><img src="img/nuvem.png" class="img-fluid" width=70 height=70></a>
+</div>
+<div class="col-md-4">
+<a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/?l=portuguese"><img src="img/steam.png" class="img-fluid" width=70 height=70></a>
+</div>
+<div class="col-md-4">
+<a href="https://www.americanas.com.br/produto/113150136?opn=YSMESP&sellerid=02&epar=bp_pl_00_go_gm_jogos_todas_geral_gmv&WT.srch=1&acc=e789ea56094489dffd798f86ff51c7a9&i=5612cbe46ed24cafb5cae011&o=55cec04a9c3238c7d1b7126c&gclid=Cj0KCQjwu6fzBRC6ARIsAJUwa2QyQPjZaixeMx6K2HqDsmnVK-XtXJYXEmEbr9earzwOLsYeSgkPovoaAuWhEALw_wcB"><img src="img/americanas.jpg" class="img-fluid" width=70 height=70></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<footer class="container-fluid text-center">
+<div class="row">
+
+<div class="col-sm-4">
+<h3><a id="link" href="fale conosco.html"> Fale Conosco </h3>
+</div>
+
+<div class="col-sm-4">
+<h3><a id="link" href="#">Conecte </h3>
+<br>
+<a id="link" href="#"><i class="fa fa-facebook"></i></a>
+<a id="link" href="#"><i class="fa fa-twitter"></i></a>
+<a id="link" href="#"><i class="fa fa-google"></i></a>
+<a id="link" href="#"><i class="fa fa-linkedin"></i></a>
+<a id="link" href="#"><i class="fa fa-youtube"></i></a>
+</div>
+<div class="col-sm-4">
+<h3><a id="link" href="#">Contato </h3>
+<br>
+<h5> 4002-8922 </5>
+</div>
 </div>
 </footer>
+
+
+
 </body>
 </html>
