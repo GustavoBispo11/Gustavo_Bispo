@@ -35,6 +35,16 @@ window.onload = function(){
     id('telefone').onkeyup = function(){
         mascara( this, mtel );
     }
+}
+function validaEmail()
+{
+  var obj = eval("document.forms[0].Email");
+  var txt = obj.value;
+  if ((txt.length != 0) && ((txt.indexOf("@") < 1) || (txt.indexOf('.') < 7)))
+  {
+    alert('Email inválido');
+    obj.focus();
+  }
 }</script>
 <nav class="navbar navbar-expand-md bg-color navbar-dark">
 	<div class="container-fluid">
@@ -108,8 +118,8 @@ window.onload = function(){
 </div>
 <div class="col-md-6">
 <div class="form-group">
-	<p><label for "email">Email: </label>
-	<input type="text" class="form-control" name="email" id="email" size="35" placeholder="seuemail@email.com"></p>
+	<p><label for "Email">Email: </label>
+	<input type="text" class="form-control" name="Email" id="Email" size="35" placeholder="seuemail@email.com" onblur="validaEmail()"></p>
 	</div>
 </div>
 <div class="col-md-6">
