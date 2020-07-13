@@ -14,6 +14,14 @@
 
 
 <body>
+<script type="text/javascript">
+function Opacidade(id){
+document.getElementById(id).style.opacity = 1;
+}
+function Opacidade1(id){
+document.getElementById(id).style.opacity = 0.6;
+}
+</script>
 <nav class="navbar navbar-expand-md bg-color navbar-dark">
 	<div class="container-fluid">
 <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
@@ -78,13 +86,16 @@
 <div class="container1">
 <div class="row"> 
 <div class="col-md-4"> 
-<a href="https://www.nuuvem.com/item/grand-theft-auto-v"><img src="img/nuvem.png" class="img-fluid" width=70 height=70></a>
+<a href="https://www.nuuvem.com/item/grand-theft-auto-v">
+<img id="opaco" src="img/nuvem.png" class="img-fluid" onmouseleave="Opacidade('opaco')" onmouseenter="Opacidade1('opaco')" width=70 height=70></a>
 </div>
 <div class="col-md-4">
-<a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/?l=portuguese"><img src="img/steam.png" class="img-fluid" width=70 height=70></a>
+<a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/?l=portuguese">
+<img id= "opaco1"src="img/steam.png" class="img-fluid" onmouseleave="Opacidade('opaco1')" onmouseenter="Opacidade1('opaco1')" width=70 height=70></a>
 </div>
 <div class="col-md-4">
-<a href="https://www.americanas.com.br/produto/113150136?opn=YSMESP&sellerid=02&epar=bp_pl_00_go_gm_jogos_todas_geral_gmv&WT.srch=1&acc=e789ea56094489dffd798f86ff51c7a9&i=5612cbe46ed24cafb5cae011&o=55cec04a9c3238c7d1b7126c&gclid=Cj0KCQjwu6fzBRC6ARIsAJUwa2QyQPjZaixeMx6K2HqDsmnVK-XtXJYXEmEbr9earzwOLsYeSgkPovoaAuWhEALw_wcB"><img src="img/americanas.jpg" class="img-fluid" width=70 height=70></a>
+<a href="https://www.americanas.com.br/produto/113150136?opn=YSMESP&sellerid=02&epar=bp_pl_00_go_gm_jogos_todas_geral_gmv&WT.srch=1&acc=e789ea56094489dffd798f86ff51c7a9&i=5612cbe46ed24cafb5cae011&o=55cec04a9c3238c7d1b7126c&gclid=Cj0KCQjwu6fzBRC6ARIsAJUwa2QyQPjZaixeMx6K2HqDsmnVK-XtXJYXEmEbr9earzwOLsYeSgkPovoaAuWhEALw_wcB">
+<img id= "opaco2" src="img/americanas.jpg" class="img-fluid" onmouseleave="Opacidade('opaco2')" onmouseenter="Opacidade1('opaco2')" width=70 height=70></a>
 </div>
 </div>
 </div>

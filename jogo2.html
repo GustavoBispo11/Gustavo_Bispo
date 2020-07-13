@@ -15,6 +15,14 @@
 
 
 <body>
+<script type="text/javascript">
+function Opacidade(id){
+document.getElementById(id).style.opacity = 1;
+}
+function Opacidade1(id){
+document.getElementById(id).style.opacity = 0.6;
+}
+</script>
 <nav class="navbar navbar-expand-md bg-color navbar-dark">
 	<div class="container-fluid">
 <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
@@ -80,13 +88,16 @@ Também foram feitas alterações no modo tradicional 11 versus 11 para incentiv
 <div class="container1">
 <div class="row"> 
 <div class="col-md-4"> 
-<a href="https://www.magazineluiza.com.br/fifa-20-para-ps4-ea/p/043183700/ga/gesp/?utm_source=google&utm_medium=pla&utm_campaign=&partner_id=4649&1=1&seller_id=magazineluiza&v=1&product_group_id=823450177915&ad_group_id=68342482962&gclid=Cj0KCQjwu6fzBRC6ARIsAJUwa2Qt3KRfmd1XRtqcx1x_-NOG2T9KGyc5bplQtw0DLt6gDGyluiQZoLIaAs8_EALw_wcB"><img src="img/magalu.png" class="img-fluid" width=70 height=70></a>
+<a href="https://www.magazineluiza.com.br/fifa-20-para-ps4-ea/p/043183700/ga/gesp/?utm_source=google&utm_medium=pla&utm_campaign=&partner_id=4649&1=1&seller_id=magazineluiza&v=1&product_group_id=823450177915&ad_group_id=68342482962&gclid=Cj0KCQjwu6fzBRC6ARIsAJUwa2Qt3KRfmd1XRtqcx1x_-NOG2T9KGyc5bplQtw0DLt6gDGyluiQZoLIaAs8_EALw_wcB">
+<img id="opaco" src="img/magalu.png" class="img-fluid" onmouseleave="Opacidade('opaco')" onmouseenter="Opacidade1('opaco')" width=70 height=70></a>
 </div>
 <div class="col-md-4">
-<a href="https://www.centralgamespsn.com/ea-sports-fifa-20-ps4-primaria?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant&gclid=Cj0KCQjwu6fzBRC6ARIsAJUwa2TxoIKdAYOvwLDBPTmnB8v0aTR6CwvuMlcV5BDYyj24uWBtFXAwmfgaAkNvEALw_wcB"><img src="img/psn.png" class="img-fluid" width=70 height=70></a>
+<a href="https://www.centralgamespsn.com/ea-sports-fifa-20-ps4-primaria?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant&gclid=Cj0KCQjwu6fzBRC6ARIsAJUwa2TxoIKdAYOvwLDBPTmnB8v0aTR6CwvuMlcV5BDYyj24uWBtFXAwmfgaAkNvEALw_wcB">
+<img id="opaco1" src="img/psn.png" class="img-fluid" onmouseleave="Opacidade('opaco1')" onmouseenter="Opacidade1('opaco1')" width=70 height=70></a>
 </div>
 <div class="col-md-4">
-<a href="https://www.origin.com/bra/pt-br/store/fifa/fifa-20"><img src="img/origin.jpg" class="img-fluid" width=70 height=70></a>
+<a href="https://www.origin.com/bra/pt-br/store/fifa/fifa-20">
+<img id ="opaco2" src="img/origin.jpg" class="img-fluid" onmouseleave="Opacidade('opaco2')" onmouseenter="Opacidade1('opaco2')" width=70 height=70></a>
 </div>
 </div>
 </div>
